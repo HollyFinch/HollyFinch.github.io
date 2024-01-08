@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>my projects</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      /* modifying Bootstrap */
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/">
+          <img src="pumpkin.png" alt="logo-pumpkin" width="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="projects.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img
+              src="awesomeProject1.jpg"
+              class="card-img-top"
+              alt="project#1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Money Tracking App</h5>
+              <p class="card-text">
+                Quickly and easily track your spending with this little app. You
+                can see trends, themes (what type of product or service you tend
+                to spend more on) and helpful tips to keep you in control of
+                your money
+              </p>
+              <a
+                href="https://github.com/HollyFinch"
+                target="_blank"
+                class="btn btn-secondary"
+                >👀 GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="awesomeProject2.jpg"
+              class="card-img-top"
+              alt="project#2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Snake Game</h5>
+              <p class="card-text">
+                This cute little snake will keep you occupied while you're stuck
+                offline. Completely cashed! No need for the Internet
+              </p>
+              <a
+                href="https://github.com/HollyFinch"
+                target="_blank"
+                class="btn btn-secondary"
+                >👀 GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="awesomeProject3.jpg"
+              class="card-img-top"
+              alt="project#3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Choice! App</h5>
+              <p class="card-text">
+                Have too many projects? Not sure where to start? - Here's a
+                solution. Spin the wheel to see what activity you should spend
+                your time on today
+              </p>
+              <a
+                href="https://github.com/HollyFinch"
+                target="_blank"
+                class="btn btn-secondary"
+                >👀 GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
