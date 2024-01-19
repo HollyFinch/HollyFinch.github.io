@@ -2,3 +2,16 @@ h1 {
   font-size: 20px;
   color: blueviolet;
 }
+.card {
+  height: 100%;
+}
+
+.card-body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+/* Ensure footer stays at the bottom */
+.card-footer {
+  align-self: end;
+}
