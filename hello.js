@@ -6,7 +6,7 @@ if (hourNow > 18) {
   greeting = "Fine evening";
 } else if (hourNow > 11) {
   greeting = "Good afternoon";
-} else if (hourNow > 0) {
+} else if (hourNow > 3) {
   greeting = "Top of the morning to you 🎩☕";
 } else if (hourNow == 0) {
   greeting = "Happy midnight 👻🕯️";
