@@ -2,7 +2,7 @@ var today = new Date();
 var hourNow = today.getHours();
 var greeting;
 
-if (hourNow > 17) {
+if (hourNow > 17 && hourNow <= 21) {
   greeting = "Fine evening";
 } else if (hourNow > 11) {
   greeting = "Good afternoon";
